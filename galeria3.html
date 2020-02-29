@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> CSS GRIDS FINALLY</title>
+  <style>
+   
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.span-row-50{grid-row: span 50 / auto;}
+
+.span-row-30{grid-row: span 30 / auto;}
+
+    .wrapper > div{
+      background: #eee;
+      padding: 1em;
+    }
+  </style>
+  </head>
+<body>
+  
+  <div class="wrapper">
+  <div class="span-row-50 item"> <a href="images/ap/ap4.jpg" class="fancybox" 
+    data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    <img class="img-fluid" src="images/ap/ap4.jpg">
+   </a></div>
+  <div class="span-row-30"><a href="images/ap/ap3.jpg" class="fancybox">
+      <img class="img-fluid" src="images/ap/ap3thumb.jpg" 
+      data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    </a></div>
+  <div class="span-row-30"><a href="images/ap/ap3.jpg" class="fancybox">
+      <img class="img-fluid" src="images/ap/ap3thumb.jpg" 
+      data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    </a></div>
+  <div class="span-row-50"><a href="images/ap/ap4.jpg" class="fancybox" 
+    data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    <img class="img-fluid" src="images/ap/ap4.jpg">
+   </a></div>
+  <div class="span-row-30"><a href="images/ap/ap3.jpg" class="fancybox">
+      <img class="img-fluid" src="images/ap/ap3thumb.jpg" 
+      data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    </a></div>
+  <div class="span-row-50"><a href="images/ap/ap4.jpg" class="fancybox" 
+    data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    <img class="img-fluid" src="images/ap/ap4.jpg">
+   </a></div>
+  <div class="span-row-50"><a href="images/ap/ap4.jpg" class="fancybox" 
+    data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    <img class="img-fluid" src="images/ap/ap4.jpg">
+   </a></div>
+  <div class="span-row-30"><a href="images/ap/ap3.jpg" class="fancybox">
+      <img class="img-fluid" src="images/ap/ap3thumb.jpg" 
+      data-caption="Reforma de apartamento na grande sao paulo com efeito cimento queimado">
+    </a></div>
+  
+</div>
+  
+
+</body>
+</html>
